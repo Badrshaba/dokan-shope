@@ -7,7 +7,8 @@
 }
 .nav-link:hover{
     background-color: red;
-    font-variant: all-petite-caps;
+    /* font-variant: all-petite-caps; */
+    border-radius: 10px;
 }
 .color:hover{
     color: white!important ;
@@ -17,7 +18,8 @@
 }
 .dropdown-item:hover{
     background-color: red;
-    font-variant: all-petite-caps;
+    border-radius: 10px;
+    /* font-variant: all-petite-caps; */
 }
 .carousel-inner{
     position: relative;
@@ -74,6 +76,7 @@ z-index: 0;
 }
 .footer55{
     text-decoration-line: none;
+    text-align: center;
     color: white;
 }
 .footer2{
@@ -135,15 +138,11 @@ cursor: pointer;
     color: #777;
 }
 .fontt{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
 }
-.maint55{
-    height: 150vh;
-}
-.top{
-    height: 130vh;
-}
+
+
 .font3{
     color: #777;
 }
@@ -195,3 +194,26 @@ transition: 0.5s all;
 .p5{
     z-index: 100;
 }
+#icon{
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 770px) {
+    .footer {
+      height: 80vh;
+    }
+    .font{
+        font-size: 13px;
+    }
+   
+  }
+  @media screen and (max-width: 470px) {
+    .fontt{
+        font-size: 35px;
+        font-weight: 500;
+    }
+   .fontp{
+      font-size: 11px;
+   }
+  }
