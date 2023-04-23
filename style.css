@@ -45,8 +45,9 @@ z-index: 0;
 
 
 .maint{
-    height: 80vh;
+    height: auto;
     transform: translate(-50%,-50%);
+    width: 650px;
 }
 .maint3{
     height: 20px;
@@ -141,7 +142,9 @@ cursor: pointer;
     font-size: 45px;
     font-weight: 600;
 }
-
+.maint1{
+    height: 80vh;
+}
 
 .font3{
     color: #777;
@@ -197,6 +200,9 @@ transition: 0.5s all;
 #icon{
     font-size: 50px;
 }
+.footer11{
+    width: 90%;
+}
 
 
 @media screen and (max-width: 770px) {
@@ -206,14 +212,27 @@ transition: 0.5s all;
     .font{
         font-size: 13px;
     }
-   
+    .rounded{
+        width:400 ;
+        height: 250;
+    }
+    .maint{
+        width: 500px !important;
+    }
   }
   @media screen and (max-width: 470px) {
     .fontt{
         font-size: 35px;
         font-weight: 500;
     }
+    .rounded{
+        width:350 ;
+        height: 200;
+    }
    .fontp{
       font-size: 11px;
+   }
+   .maint{
+    width: 400px !important;
    }
   }
